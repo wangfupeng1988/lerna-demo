@@ -1,7 +1,13 @@
 'use strict';
 
-module.exports = app;
+const plugin1 = require('@wangfupeng1988/lerna-demo-plugin1')
+const plugin2 = require('@wangfupeng1988/lerna-demo-plugin2')
 
 function app() {
-    // TODO
+    plugin1()
+    plugin2()
 }
+
+app()
+
+module.exports = app;

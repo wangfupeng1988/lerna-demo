@@ -18,6 +18,7 @@
     "url": "git+https://github.com/wangfupeng1988/lerna-demo.git"
   },
   "scripts": {
+    "dev": "node lib/app.js",
     "test": "echo \"Error: run tests from root\" && exit 1"
   },
   "bugs": {
@@ -25,5 +26,9 @@
   },
   "publishConfig": {
     "access": "public"
+  },
+  "dependencies": {
+    "@wangfupeng1988/lerna-demo-plugin1": "^1.0.0",
+    "@wangfupeng1988/lerna-demo-plugin2": "^1.0.0"
   }
 }
