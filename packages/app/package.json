@@ -1,6 +1,6 @@
 {
   "name": "@wangfupeng1988/lerna-demo-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "> TODO: description",
   "author": "git <git@git.com>",
   "homepage": "https://github.com/wangfupeng1988/lerna-demo#readme",
@@ -28,7 +28,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@wangfupeng1988/lerna-demo-plugin1": "^1.0.1",
+    "@wangfupeng1988/lerna-demo-plugin1": "^1.0.2",
     "@wangfupeng1988/lerna-demo-plugin2": "^1.0.1"
   }
 }
