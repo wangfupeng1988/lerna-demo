@@ -1,0 +1,29 @@
+{
+  "name": "@wangfupeng1988/lerna-demo-app",
+  "version": "1.0.0",
+  "description": "> TODO: description",
+  "author": "git <git@git.com>",
+  "homepage": "https://github.com/wangfupeng1988/lerna-demo#readme",
+  "license": "ISC",
+  "main": "lib/app.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wangfupeng1988/lerna-demo.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/wangfupeng1988/lerna-demo/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

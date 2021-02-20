@@ -6,8 +6,9 @@
     "publish": {
       "ignoreChanges": [
         "**/*.md"
-      ]
+      ],
+      "message": "chore(release): publish"
     }
   },
-  "version": "0.0.0"
+  "version": "independent"
 }
