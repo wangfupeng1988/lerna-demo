@@ -13,9 +13,8 @@
     }
   },
   "lint-staged": {
-    "*.{ts,js}": [
-      "lerna run test",
-      "git add ."
+    "**/*.{ts,js}": [
+      "lerna run test"
     ]
   }
 }
