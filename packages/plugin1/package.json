@@ -18,7 +18,7 @@
     "url": "git+https://github.com/wangfupeng1988/lerna-demo.git"
   },
   "scripts": {
-    "test": "echo \"Error: run tests from root\" && exit 1"
+    "test": "echo plugin1 test"
   },
   "bugs": {
     "url": "https://github.com/wangfupeng1988/lerna-demo/issues"

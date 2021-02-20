@@ -1,7 +1,9 @@
 'use strict';
 
-const app = require('..');
+// const app = require('..');
 
 describe('app', () => {
-    it('needs tests');
+    test('1+1 = 2', () => {
+        expect(1+1).toBe(2)
+    })
 });
