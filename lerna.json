@@ -3,6 +3,9 @@
     "packages/*"
   ],
   "command": {
+    "bootstrap": {
+      "hoist": true
+    },
     "publish": {
       "ignoreChanges": [
         "__test__",

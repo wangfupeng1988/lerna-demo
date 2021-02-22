@@ -29,6 +29,10 @@
   },
   "dependencies": {
     "@wangfupeng1988/lerna-demo-plugin1": "^1.0.2",
-    "@wangfupeng1988/lerna-demo-plugin2": "^1.0.1"
+    "@wangfupeng1988/lerna-demo-plugin2": "^1.0.1",
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
